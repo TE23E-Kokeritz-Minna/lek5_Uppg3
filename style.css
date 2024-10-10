@@ -3,6 +3,7 @@
 body {
     background-color: #35424a;
     margin: 0px;
+    font-family: Martian mono, monospace;
 }
 
 a {
@@ -18,8 +19,8 @@ a:hover {
     color: #e8491d;
 }
 
-h1{
-    font-family: Martian mono, monospace;
+.vit_T{
+    color: aliceblue;
 }
 
 .toppen {
@@ -28,7 +29,6 @@ h1{
     justify-content: space-around;
     align-items: center;
 
-    font-family: Martian mono, monospace;
     border-bottom: 3px solid #e8491d;
 }
 
@@ -50,16 +50,16 @@ h1{
     height: 400px;
 }
 
+
 #rubrik{
     font-size: 3em;
-    color: aliceblue;
     margin-bottom: 8px;
     text-align: center;
 }
 
-#text{
-    color: aliceblue;
+#text{  
     width: 80%;
     text-align: center;
     font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
