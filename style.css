@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
 
-body{
+body {
     background-color: #35424a;
     margin: 0px;
 }
 
-.toppen{
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.röd_T {
+    color: #e8491d;
+}
+
+h1{
+    font-family: Martian mono, monospace;
+}
+
+.toppen {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,22 +32,34 @@ body{
     border-bottom: 3px solid #e8491d;
 }
 
-
-#röd_T{
-    color: #e8491d;
-}
-
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     min-width: 200px;
 }
 
-a{
-    text-decoration: none;
-    color: aliceblue;
+.övre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(./img/showcase\ \(2\).jpg);
+    background-size: cover;
+    background-position: 0px;
+    height: 400px;
 }
 
-a:hover{
-    text-decoration:underline
+#rubrik{
+    font-size: 3em;
+    color: aliceblue;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#text{
+    color: aliceblue;
+    width: 80%;
+    text-align: center;
+    font-size: large;
 }
