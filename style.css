@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+
+body{
+    background-color: #35424a;
+    margin: 0px;
+}
+
+.toppen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: Martian mono, monospace;
+    border-bottom: 3px solid #e8491d;
+}
+
+
+#röd_T{
+    color: #e8491d;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    text-decoration:underline
+}
