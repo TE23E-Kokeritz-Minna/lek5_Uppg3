@@ -138,5 +138,16 @@ button:active {
    font-family: "Roboto", monospace;
 }
 
+.sidfot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8491d;
+    color: aliceblue;
+    height: 50px;
+    font-family: "Roboto", monospace;
+    font-size: 13px;
+}
+
 
 
