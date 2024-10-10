@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     background-color: #35424a;
@@ -19,7 +21,7 @@ a:hover {
     color: #e8491d;
 }
 
-.vit_T{
+.vit_T {
     color: aliceblue;
 }
 
@@ -28,6 +30,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
 
     border-bottom: 3px solid #e8491d;
 }
@@ -38,7 +41,7 @@ a:hover {
     min-width: 200px;
 }
 
-.övre{
+.övre {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,15 +54,54 @@ a:hover {
 }
 
 
-#rubrik{
+#rubrik {
     font-size: 3em;
     margin-bottom: 8px;
     text-align: center;
 }
 
-#text{  
+#text {
     width: 80%;
     text-align: center;
     font-size: large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+}
+
+.undre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.knappar {
+    width: 30%;
+}
+
+input {
+    height: 20px;
+    width: 70%;
+    font-family: roboto, monospace;
+
+}
+
+button {
+    background-color: #e8491d;
+    color: aliceblue;
+
+    border: none;
+    height: 26px;
+    width: 25%;
+
+    font-family: roboto, monospace;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #d8390d;
+}
+
+button:active {
+    background-color: #f8592d;
 }
