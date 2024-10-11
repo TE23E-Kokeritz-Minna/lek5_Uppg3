@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 body {
     background-color: #35424a;
@@ -34,7 +35,6 @@ a:hover {
     height: 85px;
 
     border-bottom: 3px solid #e8491d;
-
 }
 
 .nav {
@@ -77,8 +77,6 @@ a:hover {
     align-items: center;
     height: 85px;
     border-top:3px solid #e8491d;
-
-
 }
 
 .knappar {
@@ -149,5 +147,30 @@ button:active {
     font-size: 13px;
 }
 
+.citat_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 350px;
+}
 
+.citat{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    max-width: 80%;
+}
 
+span{
+    color: #e8491d;
+    font-size: 60px;
+    font-family: "macondo", monospace;
+}
+
+#författare{
+    padding-left: 65%;
+}
