@@ -136,6 +136,9 @@ button:active {
    font-family: "Roboto", monospace;
 }
 
+
+/*  sida2 unika nedan */
+
 .sidfot{
     display: flex;
     justify-content: center;
@@ -173,4 +176,24 @@ span{
 
 #författare{
     padding-left: 65%;
+}
+
+.omOss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #eeeeee;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.omOss_text{
+    max-width: 50%;
+    padding-left: 30px;
+    border-left: 5px solid #35424a;
+}
+
+.omOss_lista{
+    max-width: 30%;
 }
