@@ -33,6 +33,9 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     height: 85px;
+    position: sticky;
+    top: 0px;
+    background-color: #35424a;
 
     border-bottom: 3px solid #e8491d;
 }
@@ -196,4 +199,30 @@ span{
 
 .omOss_lista{
     max-width: 30%;
+}
+
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kontaker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.info{
+    margin-bottom: 0px;
+}
+
+
+.K_boxes{
+    max-width: 20%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
